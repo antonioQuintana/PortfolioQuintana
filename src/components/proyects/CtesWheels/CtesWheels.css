@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --hw-blue: #0056b3;
+    --hw-orange: #ff6600;
+    --hw-yellow: #ffcc00;
+    --hw-black: #1a1a1a;
+    --hw-white: #ffffff;
+
+    --font-racing: 'Racing Sans One', cursive;
+    --font-body: 'Roboto', sans-serif;
+}
+
+/* Navbar Customization */
+.navbar-ctesWheels {
+    background: linear-gradient(90deg, var(--hw-blue) 0%, #004080 100%) !important;
+    border-bottom: 4px solid var(--hw-orange);
+}
+
+.ctes-brand .brand-part-1,
+.ctes-brand .brand-part-2 {
+    font-family: var(--font-racing);
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 0px #000;
+}
+
+.ctes-brand .brand-part-1 {
+    color: var(--hw-yellow) !important;
+}
+
+.ctes-brand .brand-part-2 {
+    color: var(--hw-white) !important;
+}
+
+.nav-link-ctes {
+    color: var(--hw-white) !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: var(--font-racing);
+    text-shadow: 2px 2px 0px #000;
+}
+
+.nav-link-ctes:hover {
+    color: var(--hw-yellow) !important;
+}
+
+.btn-ctes-search {
+    background-color: var(--hw-yellow) !important;
+    border-color: var(--hw-yellow) !important;
+    color: var(--hw-black) !important;
+    font-weight: bold !important;
+}
+
+/* Home */
+.home-page .hero-title {
+    font-family: var(--font-racing);
+    text-transform: uppercase;
+    font-style: italic;
+    text-shadow: 4px 4px 0 #000;
+}
+
+.home-page .hero-title .highlight {
+    color: var(--hw-yellow);
+}
+
+.home-page .hero-subtitle {
+    font-family: var(--font-body);
+    color: var(--hw-white);
+}
+
+.home-page .section-title {
+    font-family: var(--font-racing);
+    text-transform: uppercase;
+    font-style: italic;
+    color: var(--hw-blue);
+}
+
+.btn-ctes-primary {
+    background-color: var(--hw-orange) !important;
+    border-color: var(--hw-orange) !important;
+    color: var(--hw-white) !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    font-family: var(--font-racing);
+}
+
+.btn-ctes-primary:hover {
+    background-color: #e65c00 !important;
+    border-color: #e65c00 !important;
+}
+
+/* Cards */
+.text-price-ctes {
+    color: var(--hw-blue) !important;
+    font-weight: bold;
+    font-family: var(--font-body);
+}
+
+/* Admin Enhancements */
+.admin-table {
+    background: transparent !important;
+    color: var(--hw-white) !important;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.admin-table th {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    color: var(--hw-orange);
+    font-family: 'Racing Sans One', sans-serif;
+    letter-spacing: 1px;
+    border-bottom: 2px solid var(--hw-orange);
+}
+
+.admin-table td {
+    background-color: transparent !important;
+    color: var(--hw-white);
+    vertical-align: middle;
+    border-color: rgba(255, 255, 255, 0.05);
+}
+
+.admin-table tr:hover td {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Modal Dark Theme */
+.modal-content {
+    background-color: #1a1a1a !important;
+    border: 1px solid var(--hw-blue);
+    color: var(--hw-white);
+}
+
+.modal-header {
+    border-bottom: 1px solid var(--hw-blue);
+}
+
+.modal-footer {
+    border-top: 1px solid var(--hw-blue);
+}
+
+.btn-close {
+    filter: invert(1);
+}
+
+/* Consistent Buttons */
+.btn-ctes-outstock {
+    background: linear-gradient(135deg, var(--hw-orange) 0%, var(--hw-yellow) 100%);
+    color: var(--hw-black);
+    /* Contrast text on bright buttons */
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    /* Pill shape is trendy */
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px var(--hw-orange);
+}

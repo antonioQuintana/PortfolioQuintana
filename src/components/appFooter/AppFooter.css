@@ -1,0 +1,60 @@
+.footer-container {
+    background-color: var(--surface-color);
+
+    color: var(--text-color);
+    padding: 30px 20px;
+    text-align: center;
+    border-top: 4px solid var(--primary-color);
+    width: 100%;
+    box-sizing: border-box;
+
+    margin-top: 70px;
+
+}
+
+.footer-social-links {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.social-icon {
+    color: var(--text-muted);
+
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-flex;
+
+    padding: 5px;
+
+}
+
+
+.social-icon:hover {
+    transform: translateY(-3px);
+
+}
+
+.instagram:hover {
+    color: #e95950;
+}
+
+.linkedin:hover {
+    color: #0077b5;
+}
+
+.github:hover {
+    color: #f0f6fc;
+}
+
+.gmail:hover {
+    color: #EA4335;
+}
+
+.footer-copyright {
+    font-size: 0.9rem;
+    margin: 0;
+    opacity: 0.8;
+    color: var(--text-muted);
+}
