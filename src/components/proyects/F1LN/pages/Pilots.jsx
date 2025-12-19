@@ -42,6 +42,10 @@ const Pilots = () => {
                                     className="card-img-top"
                                     alt={piloto.nombre}
                                     style={{ height: '260px', objectFit: 'cover', objectPosition: 'top' }}
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="100%"
+                                    height="260"
                                     onError={(e) => {
                                         e.target.onerror = null;
                                         e.target.src = "https://placehold.co/400x400?text=No+Image";
