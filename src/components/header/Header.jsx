@@ -2,10 +2,8 @@ import fotoTitulo from '../../img/fotoTitulo3.jpg';
 
 function Header() {
     return (
-        <div className="header-section" style={{
+        <div className="header-section header-background" style={{
             backgroundImage: `linear-gradient(to bottom, transparent, var(--bg-color)), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(${fotoTitulo})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'top center',
             minHeight: '100vh',
             display: 'flex',
             flexDirection: 'column',
@@ -21,7 +19,7 @@ function Header() {
                     letterSpacing: '4px',
                     textShadow: '2px 2px 4px rgba(0,0,0,0.5)'
                 }}>
-                    Antonio Quintana
+                    Antonio <span className="break-mobile">Quintana</span>
                 </h1>
 
                 <div style={{
@@ -62,10 +60,18 @@ function Header() {
             </div>
 
             <style>{`
-                @keyframes bounce {
-                    0%, 20%, 50%, 80%, 100% {transform: translateX(-50%) translateY(0);}
-                    40% {transform: translateX(-50%) translateY(-10px);}
-                    60% {transform: translateX(-50%) translateY(-5px);}
+                .header-background {
+                    background-size: cover;
+                    background-position: top center;
+                }
+                @media (max-width: 768px) {
+                    .header-background {
+                        background-position: 75% center;
+                        min-height: 85vh !important; /* Slightly reduced height on mobile */
+                    }
+                    .break-mobile {
+                        display: block; /* Forces split into two lines */
+                    }
                 }
             `}</style>
         </div>

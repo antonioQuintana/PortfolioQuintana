@@ -15,13 +15,13 @@ const Home = () => {
                     <div id="carouselExampleAutoplaying" className="carousel slide border" data-bs-ride="carousel">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img src="/f1ln-assets/img/inicio1.jpg" className="d-block w-100 rounded-3" alt="Inicio 1" />
+                                <img src="f1ln-assets/img/inicio1.jpg" className="d-block w-100 rounded-3" alt="Inicio 1" />
                             </div>
                             <div className="carousel-item">
-                                <img src="/f1ln-assets/img/inicio2.jpg" className="d-block w-100 rounded-3" alt="Inicio 2" />
+                                <img src="f1ln-assets/img/inicio2.jpg" className="d-block w-100 rounded-3" alt="Inicio 2" />
                             </div>
                             <div className="carousel-item">
-                                <img src="/f1ln-assets/img/inicio3.jpg" className="d-block w-100 rounded-3" alt="Inicio 3" />
+                                <img src="f1ln-assets/img/inicio3.jpg" className="d-block w-100 rounded-3" alt="Inicio 3" />
                             </div>
                         </div>
                         <button

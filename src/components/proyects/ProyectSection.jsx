@@ -1,7 +1,8 @@
-import { useState, useRef } from 'react';
-import MainCtesWheels from './CtesWheels/MainCtesWheels';
-import PrimeraWeb from './PrimeraWeb';
-import F1LN from './F1LN/F1LN';
+import { useState, useRef, lazy, Suspense } from 'react';
+
+const MainCtesWheels = lazy(() => import('./CtesWheels/MainCtesWheels'));
+const PrimeraWeb = lazy(() => import('./PrimeraWeb'));
+const F1LN = lazy(() => import('./F1LN/F1LN'));
 
 function ProyectSection() {
     const [activeTab, setActiveTab] = useState('1');
@@ -20,11 +21,17 @@ function ProyectSection() {
         }
     };
 
+    const LoadingSpinner = () => (
+        <div className="d-flex justify-content-center align-items-center h-100" style={{ minHeight: '400px' }}>
+            <div className="spinner-border text-primary" role="status" style={{ width: '3rem', height: '3rem' }}>
+                <span className="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    );
+
     return (
         <div className="section-container">
             <h2 className="section-title">Mis Proyectos</h2>
-
-
 
             <div className="alert alert-info d-flex align-items-center mb-4 mx-auto glass-panel" style={{ maxWidth: '800px', backgroundColor: 'rgba(255, 244, 244, 0.66)', border: '1px solid var(--primary-color)' }}>
                 <div style={{ fontSize: '1.5rem', marginRight: '1rem' }}>ℹ️</div>
@@ -105,17 +112,19 @@ function ProyectSection() {
                 </div>
 
                 <div className="card-body flex-grow-1 text-start" style={{ overflowY: 'auto' }}>
-                    {activeTab === '1' && <MainCtesWheels fullscreenRef={containerRef} />}
-                    {activeTab === '2' && (
-                        <div className="text-start" style={{ padding: '0' }}>
-                            <F1LN />
-                        </div>
-                    )}
-                    {activeTab === '3' && (
-                        <div className="text-start">
-                            <PrimeraWeb />
-                        </div>
-                    )}
+                    <Suspense fallback={<LoadingSpinner />}>
+                        {activeTab === '1' && <MainCtesWheels fullscreenRef={containerRef} />}
+                        {activeTab === '2' && (
+                            <div className="text-start" style={{ padding: '0' }}>
+                                <F1LN />
+                            </div>
+                        )}
+                        {activeTab === '3' && (
+                            <div className="text-start">
+                                <PrimeraWeb />
+                            </div>
+                        )}
+                    </Suspense>
                 </div>
             </div>
 
@@ -128,6 +137,8 @@ function ProyectSection() {
                 @media (min-width: 768px) {
                     .d-md-position-absolute {
                         position: absolute !important;
+                        top: 50%;
+                        transform: translateY(-50%);
                     }
                 }
             `}</style>

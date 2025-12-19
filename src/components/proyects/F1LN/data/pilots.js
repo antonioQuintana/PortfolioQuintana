@@ -1,7 +1,7 @@
 export const pilotos = [
     {
         nombre: 'Lando Norris',
-        foto: '/f1ln-assets/img/pilotos/norris.jpg',
+        foto: 'f1ln-assets/img/pilotos/norris.jpg',
         equipo: 'McLaren',
         nacionalidad: 'Reino Unido',
         edad: 26,
@@ -10,7 +10,7 @@ export const pilotos = [
     },
     {
         nombre: 'Max Verstappen',
-        foto: '/f1ln-assets/img/pilotos/verstappen.jpg',
+        foto: 'f1ln-assets/img/pilotos/verstappen.jpg',
         equipo: 'Red Bull Racing',
         nacionalidad: 'Países Bajos',
         edad: 28,
@@ -19,7 +19,7 @@ export const pilotos = [
     },
     {
         nombre: 'Oscar Piastri',
-        foto: '/f1ln-assets/img/pilotos/piastri.jpg',
+        foto: 'f1ln-assets/img/pilotos/piastri.jpg',
         equipo: 'McLaren',
         nacionalidad: 'Australia',
         edad: 24,
@@ -28,7 +28,7 @@ export const pilotos = [
     },
     {
         nombre: 'George Russell',
-        foto: '/f1ln-assets/img/pilotos/russell.jpg',
+        foto: 'f1ln-assets/img/pilotos/russell.jpg',
         equipo: 'Mercedes',
         nacionalidad: 'Reino Unido',
         edad: 27,
@@ -37,7 +37,7 @@ export const pilotos = [
     },
     {
         nombre: 'Charles Leclerc',
-        foto: '/f1ln-assets/img/pilotos/leclerc.jpg',
+        foto: 'f1ln-assets/img/pilotos/leclerc.jpg',
         equipo: 'Ferrari',
         nacionalidad: 'Mónaco',
         edad: 28,
@@ -46,7 +46,7 @@ export const pilotos = [
     },
     {
         nombre: 'Lewis Hamilton',
-        foto: '/f1ln-assets/img/pilotos/hamilton.jpg',
+        foto: 'f1ln-assets/img/pilotos/hamilton.jpg',
         equipo: 'Ferrari',
         nacionalidad: 'Reino Unido',
         edad: 40,
@@ -55,7 +55,7 @@ export const pilotos = [
     },
     {
         nombre: 'Andrea Kimi Antonelli',
-        foto: '/f1ln-assets/img/pilotos/antonelli.jpg',
+        foto: 'f1ln-assets/img/pilotos/antonelli.jpg',
         equipo: 'Mercedes',
         nacionalidad: 'Italia',
         edad: 19,
@@ -64,7 +64,7 @@ export const pilotos = [
     },
     {
         nombre: 'Alexander Albon',
-        foto: '/f1ln-assets/img/pilotos/albon.jpg',
+        foto: 'f1ln-assets/img/pilotos/albon.jpg',
         equipo: 'Williams',
         nacionalidad: 'Tailandia',
         edad: 29,
@@ -73,7 +73,7 @@ export const pilotos = [
     },
     {
         nombre: 'Carlos Sainz',
-        foto: '/f1ln-assets/img/pilotos/sainz.jpg',
+        foto: 'f1ln-assets/img/pilotos/sainz.jpg',
         equipo: 'Williams',
         nacionalidad: 'España',
         edad: 31,
@@ -82,7 +82,7 @@ export const pilotos = [
     },
     {
         nombre: 'Fernando Alonso',
-        foto: '/f1ln-assets/img/pilotos/alonso.jpg',
+        foto: 'f1ln-assets/img/pilotos/alonso.jpg',
         equipo: 'Aston Martin',
         nacionalidad: 'España',
         edad: 44,
@@ -91,7 +91,7 @@ export const pilotos = [
     },
     {
         nombre: 'Nico Hülkenberg',
-        foto: '/f1ln-assets/img/pilotos/hulkenberg.jpg',
+        foto: 'f1ln-assets/img/pilotos/hulkenberg.jpg',
         equipo: 'Kick Sauber',
         nacionalidad: 'Alemania',
         edad: 38,
@@ -100,7 +100,7 @@ export const pilotos = [
     },
     {
         nombre: 'Isack Hadjar',
-        foto: '/f1ln-assets/img/pilotos/hadjar.jpg',
+        foto: 'f1ln-assets/img/pilotos/hadjar.jpg',
         equipo: 'Racing Bulls',
         nacionalidad: 'Francia',
         edad: 21,
@@ -109,7 +109,7 @@ export const pilotos = [
     },
     {
         nombre: 'Oliver Bearman',
-        foto: '/f1ln-assets/img/pilotos/bearman.jpg',
+        foto: 'f1ln-assets/img/pilotos/bearman.jpg',
         equipo: 'Haas',
         nacionalidad: 'Reino Unido',
         edad: 20,
@@ -118,7 +118,7 @@ export const pilotos = [
     },
     {
         nombre: 'Liam Lawson',
-        foto: '/f1ln-assets/img/pilotos/lawson-racing-bulls.jpg',
+        foto: 'f1ln-assets/img/pilotos/lawson-racing-bulls.jpg',
         equipo: 'Racing Bulls',
         nacionalidad: 'Nueva Zelanda',
         edad: 23,
@@ -127,7 +127,7 @@ export const pilotos = [
     },
     {
         nombre: 'Esteban Ocon',
-        foto: '/f1ln-assets/img/pilotos/ocon.jpg',
+        foto: 'f1ln-assets/img/pilotos/ocon.jpg',
         equipo: 'Haas',
         nacionalidad: 'Francia',
         edad: 29,
@@ -136,7 +136,7 @@ export const pilotos = [
     },
     {
         nombre: 'Lance Stroll',
-        foto: '/f1ln-assets/img/pilotos/stroll.jpg',
+        foto: 'f1ln-assets/img/pilotos/stroll.jpg',
         equipo: 'Aston Martin',
         nacionalidad: 'Canadá',
         edad: 27,
@@ -145,7 +145,7 @@ export const pilotos = [
     },
     {
         nombre: 'Yuki Tsunoda',
-        foto: '/f1ln-assets/img/pilotos/tsunoda.jpg',
+        foto: 'f1ln-assets/img/pilotos/tsunoda.jpg',
         equipo: 'Red Bull Racing',
         nacionalidad: 'Japón',
         edad: 25,
@@ -154,7 +154,7 @@ export const pilotos = [
     },
     {
         nombre: 'Pierre Gasly',
-        foto: '/f1ln-assets/img/pilotos/gasly.jpg',
+        foto: 'f1ln-assets/img/pilotos/gasly.jpg',
         equipo: 'Alpine',
         nacionalidad: 'Francia',
         edad: 29,
@@ -163,7 +163,7 @@ export const pilotos = [
     },
     {
         nombre: 'Gabriel Bortoleto',
-        foto: '/f1ln-assets/img/pilotos/bortoleto.jpg',
+        foto: 'f1ln-assets/img/pilotos/bortoleto.jpg',
         equipo: 'Kick Sauber',
         nacionalidad: 'Brasil',
         edad: 21,
@@ -172,7 +172,7 @@ export const pilotos = [
     },
     {
         nombre: 'Franco Colapinto',
-        foto: '/f1ln-assets/img/pilotos/colapinto.jpg',
+        foto: 'f1ln-assets/img/pilotos/colapinto.jpg',
         equipo: 'Alpine',
         nacionalidad: 'Argentina',
         edad: 22,

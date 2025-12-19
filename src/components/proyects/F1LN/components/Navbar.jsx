@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className="container-fluid">
                 <div>
                     <a className="navbar-brand" href="#" onClick={(e) => handleNavClick(e, '/')}>
-                        <img src="/f1ln-assets/img/logo-f1news.jpg" height="50" className="rounded" alt="Logo" />
+                        <img src="f1ln-assets/img/logo-f1news.jpg" height="50" className="rounded" alt="Logo" />
                     </a>
                 </div>
                 <button

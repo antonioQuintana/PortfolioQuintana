@@ -14,7 +14,7 @@ const Contact = () => {
                         <div className="col-md my-4" style={{ maxWidth: '300px' }}>
                             <div className="card h-100 shadow">
                                 <a href="#" target="_blank" rel="noreferrer">
-                                    <img src="/f1ln-assets/img/antonio_quintana.jpg" className="card-img-top" alt="Antonio Quintana" />
+                                    <img src="f1ln-assets/img/antonio_quintana.jpg" className="card-img-top" alt="Antonio Quintana" />
                                 </a>
                                 <div className="card-body">
                                     <h5 className="card-title">Antonio Quintana</h5>
