@@ -15,7 +15,7 @@ Please change the parent <Route path="${V}"> to <Route path="${V==="/"?"*":`${V}
                 }
                 @media (max-width: 768px) {
                     .header-background {
-                        background-position: top right;
+                        background-position: 75% center;
                         min-height: 85vh !important; /* Slightly reduced height on mobile */
                     }
                     .break-mobile {
